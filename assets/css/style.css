@@ -65,3 +65,13 @@ h1, h2, h3, h4, h5 {
 .nav-links li {
   padding-left: 10px;
 }
+
+/* HERO */
+.hero-image {
+  background-image: url(../images/armoredcore1.png);
+  background-position: center top;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 20px;
+  padding-top: 10vh;
+}
