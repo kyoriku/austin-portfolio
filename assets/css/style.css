@@ -30,3 +30,22 @@ h1, h2, h3, h4, h5 {
   color: #ffffff;
   margin: 20px;
 }
+
+/* HEADER NAV */
+.nav-links {
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.nav-links nav {
+  padding: 12px 0 12px 0;
+}
+
+.nav-links a {
+  font: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
