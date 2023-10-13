@@ -76,7 +76,7 @@ h2, h3, h4, h5 {
   padding-top: 10vh;
 }
 
-.hero-text {
+.hero-title {
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -84,6 +84,14 @@ h2, h3, h4, h5 {
   transform: translate(0, -50%);
 }
 
-.hero-text h1 {
+.hero-title h1 {
   font-size: 10vw;
 }
+
+/* ABOUT ME */
+
+/* MY WORK */
+
+/* CONTACT ME */
+
+/* FOOTER */
