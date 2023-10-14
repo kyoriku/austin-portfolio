@@ -30,18 +30,18 @@ h2, h3, h4 {
 }
 
 /* HEADER NAV BAR */
-.navigation {
+.nav-bar {
   color: #fff;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
 }
 
-.navigation nav {
+.nav-bar nav {
   padding: 12px 0 12px 0;
 }
 
-.navigation a {
+.nav-bar a {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -190,10 +190,10 @@ footer h5 {
   font-size: 50px;
 }
 
-/* MEDIA  */
+/* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
 
-  .navigation, .nav-links {
+  .nav-bar, .nav-links {
     justify-content: space-around;
   }
 
@@ -208,12 +208,12 @@ footer h5 {
 }
 
 @media screen and (max-width: 480px) {
-  .navigation, .nav-links {
+  .nav-bar, .nav-links {
     flex-flow: column wrap;
     padding: 0;
   }
 
-  .navigation nav {
+  .nav-bar nav {
     padding: 0;
   }
 
