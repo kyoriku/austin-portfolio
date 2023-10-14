@@ -214,19 +214,19 @@ footer h5 {
 
 @media screen and (max-width: 480px) {
   .container-about {
-    padding-bottom: 0;
+    margin-top: 2px;
   }
 
   .container-work {
-    padding: 10px;
+    padding: 12px 0 8px 0;
   }
 
   .projects {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
 
   .container-contact h4 {
-    padding-top: 10px;
+    padding-top: 12px;
     padding-bottom: 0;
   }
 
