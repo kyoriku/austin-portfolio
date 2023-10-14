@@ -88,6 +88,18 @@ p {
   padding-top: 10vh;
 }
 
+.hero-image:after {
+  bottom: 5vh;
+  border: 10px solid;
+  border-color: #ffffff transparent transparent;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 0;
+}
+
 .hero-title {
   position: relative;
   text-align: center;
@@ -210,9 +222,30 @@ footer h5 {
   .container-about, .container-work, .container-contact {
     flex-direction: column;
   }
+
+  .container-about {
+    margin-top: 2px;
+  }
+
+  .container-work {
+    padding: 12px 0 8px 0;
+  }
+
+  .projects {
+    margin-bottom: 8px;
+  }
+
+  .container-contact h4 {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .hero-image {
+    height: 80vh;
+  }
+
   .container-about {
     margin-top: 2px;
   }
