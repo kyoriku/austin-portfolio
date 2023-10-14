@@ -108,7 +108,17 @@ h2, h3, h4, h5 {
 }
 
 /* MY WORK */
+.container-work {
+  align-items: center;
+  display: flex;
+  padding: 10px 0 10px 0;
+}
 
 /* CONTACT ME */
+.container-contact {
+  align-items: center;
+  display: flex;
+  padding: 10px 0 10px 0;
+}
 
 /* FOOTER */
