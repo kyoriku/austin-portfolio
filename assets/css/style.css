@@ -89,6 +89,23 @@ h2, h3, h4, h5 {
 }
 
 /* ABOUT ME */
+.container-about {
+  align-items: center;
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+
+.container-title {
+  flex: 1;
+  font-size: 4vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container-body {
+  flex: 1.5;
+  padding: 0 3vw;
+}
 
 /* MY WORK */
 
