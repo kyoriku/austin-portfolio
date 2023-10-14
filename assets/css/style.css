@@ -49,7 +49,6 @@ h2, h3, h4 {
 
 .nav-links {
   display: flex;
-  flex-flow: row wrap;
   justify-content: flex-end;
   list-style: none;
 }
@@ -59,8 +58,27 @@ h2, h3, h4 {
   display: block;
 }
 
-.nav-links li {
-  padding-left: 10px;
+.nav-links a:hover {
+  color: #00a5d3;
+  border-radius: 25px;
+}
+
+.nav-links li:first-child a {
+  color: #00a5d3;
+}
+
+.nav-links li:first-child a:hover {
+  color: #ffffff;
+}
+
+.nav-links li:first-child {
+  padding: 0 15px 0 15px;
+}
+
+.nav-links li ~ li {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* HERO */
