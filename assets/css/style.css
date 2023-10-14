@@ -190,9 +190,54 @@ footer h5 {
   font-size: 50px;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA  */
 @media screen and (max-width: 768px) {
+
+  .navigation, .nav-links {
+    justify-content: space-around;
+  }
+
+  .nav-links li ~ li {
+    padding-left: 0;
+    border: none;
+  }
+
   .container-about, .container-work, .container-contact {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navigation, .nav-links {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation nav {
+    padding: 0;
+  }
+
+  .nav-links a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+
+  .nav-links li ~ li {
+    padding: 0;
+    border-left: none;
+  }
+
+  .nav-links li:first-child {
+    padding: 0;
+  }
+
+  .nav-links li:first-of-type a {
+    border-top: none;
+  }
+
+  .nav-links li:last-of-type a {
+    border-bottom: none;
   }
 }
