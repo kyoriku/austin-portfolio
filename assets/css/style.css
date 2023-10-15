@@ -151,7 +151,7 @@ p {
   margin-bottom: 16px;
 }
 
-.project-1 {
+.project-big {
   background-color: #71797E;
   border-radius: 25px;
   padding: 10px;
@@ -159,7 +159,7 @@ p {
   flex: 0 1 800px;
 }
 
-.project-2, .project-3, .project-4, .project-5 {
+.project-small {
   background-color: #71797E;
   border-radius: 25px;
   padding: 10px;
@@ -167,16 +167,16 @@ p {
   flex: 0 1 400px;
 }
 
-.project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img {
+.project-big img, .project-small img {
   border-radius: 25px 25px 0 0;
   width: 100%;
 }
 
-.project-1 header, .project-2 header, .project-3 header, .project-4 header, .project-5 header {
+.project-big header, .project-small header {
   background-color: #000000
 }
 
-.project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover, .project-5:hover {
+.project-big:hover, .project-small:hover {
   text-decoration: underline;
   background-color: #00a5d3;
 }
