@@ -263,6 +263,11 @@ footer h5 {
     padding-bottom: 0;
   }
 
+  .container-about h2, .container-work h3, .container-contact h4 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
   .nav-bar, .nav-links {
     flex-flow: column wrap;
     padding: 0;
