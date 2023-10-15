@@ -16,7 +16,7 @@ you to the deployed application, has a responsive layout that adapts to differen
 - [Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
 - [Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 - [How to create a full-page hero image (HTML & CSS)](https://codetheweb.blog/fullscreen-image-hero/)
-- [How to use Font Awesome icons in HTML](https://stackoverflow.com/questions/71146319/how-to-use-font-awesome-icons-in-html)\
+- [How to use Font Awesome icons in HTML](https://stackoverflow.com/questions/71146319/how-to-use-font-awesome-icons-in-html)
 - [Font Awesome](https://fontawesome.com/icons)
 
 ## License
