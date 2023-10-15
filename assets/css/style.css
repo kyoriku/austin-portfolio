@@ -119,26 +119,26 @@ p {
 }
 
 /* ABOUT ME */
-.container-about {
+.about {
   align-items: center;
   display: flex;
   padding: 10px 0 10px 0;
 }
 
-.container-title {
+.title {
   flex: 1;
   font-size: 4vw;
   text-align: center;
   text-transform: uppercase;
 }
 
-.container-body {
+.body {
   flex: 1.5;
   padding: 0 3vw;
 }
 
 /* MY WORK */
-.container-work {
+.work {
   align-items: center;
   display: flex;
   padding: 20px 0 16px 0;
@@ -190,12 +190,12 @@ p {
 }
 
 /* CONTACT ME */
-.container-contact {
+.contact {
   align-items: center;
   display: flex;
 }
 
-.container-contact h4 {
+.contact h4 {
   padding: 20px;
 }
 
@@ -219,15 +219,15 @@ footer h5 {
     border: none;
   }
 
-  .container-about, .container-work, .container-contact {
+  .about, .work, .contact {
     flex-direction: column;
   }
 
-  .container-about {
+  .about {
     margin-top: 2px;
   }
 
-  .container-work {
+  .work {
     padding: 12px 0 8px 0;
   }
 
@@ -235,7 +235,7 @@ footer h5 {
     margin-bottom: 8px;
   }
 
-  .container-contact h4 {
+  .contact h4 {
     padding-top: 12px;
     padding-bottom: 0;
   }
@@ -246,11 +246,11 @@ footer h5 {
     height: 80vh;
   }
 
-  .container-about {
+  .about {
     margin-top: 2px;
   }
 
-  .container-work {
+  .work {
     padding: 12px 0 8px 0;
   }
 
@@ -258,12 +258,12 @@ footer h5 {
     margin-bottom: 8px;
   }
 
-  .container-contact h4 {
+  .contact h4 {
     padding-top: 12px;
     padding-bottom: 0;
   }
 
-  .container-about h2, .container-work h3, .container-contact h4 {
+  .about h2, .work h3, .contact h4 {
     font-size: 24px;
     font-weight: bold;
   }
