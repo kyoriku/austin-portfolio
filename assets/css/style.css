@@ -89,7 +89,7 @@ p {
 }
 
 .hero-image:after {
-  bottom: 5vh;
+  bottom: 3vh;
   border: 10px solid;
   border-color: #ffffff transparent transparent;
   content: "";
