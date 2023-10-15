@@ -216,7 +216,7 @@ p {
 }
 
 .social-links {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 99px;
   color: #00a5d3;
   display: inline-block;
@@ -292,7 +292,7 @@ footer h5 {
   }
 
   .projects {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .contact h4 {
