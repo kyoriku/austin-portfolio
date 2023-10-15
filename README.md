@@ -9,7 +9,7 @@ you to the deployed application, has a responsive layout that adapts to differen
 ## Usage
 > [Link to deployed application](https://kyoriku.github.io/beta-2/)
 
-![Screenshot]()
+![Screenshot](assets/images/screenshot.pdf)
 
 ## Credits
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
