@@ -200,6 +200,14 @@ p {
   padding: 20px;
 }
 
+.contact a {
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: #00a5d3;
+}
+
 /* SOCIAL LINKS */
 .social-list {
   list-style: none;
