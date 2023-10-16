@@ -280,6 +280,10 @@ footer h5 {
     padding-top: 12px;
     padding-bottom: 0;
   }
+
+  .contact p {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -302,6 +306,10 @@ footer h5 {
   .contact h4 {
     padding-top: 12px;
     padding-bottom: 0;
+  }
+
+  .contact p {
+    text-align: center;
   }
 
   .about h2, .work h3, .contact h4 {
