@@ -200,6 +200,14 @@ p {
   padding: 20px;
 }
 
+.contact ul {
+  list-style: none;
+}
+
+.contact li {
+  margin: 10px 0;
+}
+
 .contact a {
   text-decoration: underline;
 }
@@ -281,7 +289,7 @@ footer h5 {
     padding-bottom: 0;
   }
 
-  .contact p {
+  .contact ul {
     text-align: center;
   }
 }
@@ -308,7 +316,7 @@ footer h5 {
     padding-bottom: 0;
   }
 
-  .contact p {
+  .contact ul {
     text-align: center;
   }
 
