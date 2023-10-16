@@ -179,9 +179,6 @@ p {
 .project-big:hover, .project-small:hover {
   text-decoration: underline;
   background-color: #00a5d3;
-}
-
-.project-big img:hover, .project-small img:hover {
   opacity: 0.8;
 }
 
