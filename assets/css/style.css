@@ -179,7 +179,7 @@ p {
 .project-big:hover, .project-small:hover {
   text-decoration: underline;
   background-color: #00a5d3;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .project-header {
@@ -255,106 +255,4 @@ footer {
 
 footer h5 {
   padding: 25px;
-}
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-  .nav-bar, .nav-links {
-    justify-content: space-around;
-  }
-
-  .nav-links li ~ li {
-    padding-left: 0;
-    border: none;
-  }
-
-  .about, .work, .contact {
-    flex-direction: column;
-  }
-
-  .about {
-    margin-top: 2px;
-  }
-
-  .work {
-    padding: 12px 0 8px 0;
-  }
-
-  .projects {
-    margin-bottom: 8px;
-  }
-
-  .contact h4 {
-    padding-top: 12px;
-    padding-bottom: 0;
-  }
-
-  .contact ul {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .hero-image {
-    height: 80vh;
-  }
-
-  .about {
-    margin-top: 2px;
-  }
-
-  .work {
-    padding: 12px 0 8px 0;
-  }
-
-  .projects {
-    margin-bottom: 10px;
-  }
-
-  .contact h4 {
-    padding-top: 12px;
-    padding-bottom: 0;
-  }
-
-  .contact ul {
-    text-align: center;
-  }
-
-  .about h2, .work h3, .contact h4 {
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .nav-bar, .nav-links {
-    flex-flow: column wrap;
-    padding: 0;
-  }
-
-  .nav-bar nav {
-    padding: 0;
-  }
-
-  .nav-links a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255,0.3); 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-  }
-
-  .nav-links li ~ li {
-    padding: 0;
-    border-left: none;
-  }
-
-  .nav-links li:first-child {
-    padding: 0;
-  }
-
-  .nav-links li:first-of-type a {
-    border-top: none;
-  }
-
-  .nav-links li:last-of-type a {
-    border-bottom: none;
-  }
 }
