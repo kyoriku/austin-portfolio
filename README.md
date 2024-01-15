@@ -7,7 +7,7 @@ corresponding sections, first application is larger in size than the others, cli
 you to the deployed application, has a responsive layout that adapts to different screen sizes.
 
 ## Usage
-> [Link to deployed application](https://kyoriku.github.io/austin-portfolio/)
+> [Link to deployed application](https://kyoriku.github.io/portfolio/)
 
 ![Screenshot](assets/images/screenshot.png)
 
